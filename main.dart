@@ -3,13 +3,13 @@ getMinimumValue(List<int> numbers) {
     print("The list is empty");
   }
   else{
-    var Minimum = numbers[0];
+    var minimum = numbers[0];
     for(int number in numbers){
-      if(number < Minimum){
-        Minimum = number;
+      if(number < minimum){
+        minimum = number;
       }
     }
-    print(Minimum);
+    print(minimum);
   }
 }
 void main() {
